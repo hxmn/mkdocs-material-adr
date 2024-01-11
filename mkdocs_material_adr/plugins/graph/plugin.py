@@ -89,7 +89,7 @@ class RecordCollection:
         graph = ["```mermaid", "graph TD"]
         for r in self._map.values():
             graph.append(f"{r.id}[{r.title}]")
-            graph.append(f'click {r.id} "{r.url}" _blank')
+            graph.append(f'click {r.id} "{r.id}" _blank')
             graph.append(f"{r.id}:::mermaid-{r.status}")
             graph.append(f"{r.id}:::mermaid-common")
 
