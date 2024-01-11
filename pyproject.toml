@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mkdocs-material-adr"
-version = "0.1.0"
+version = "1.2.0"
 description = ""
 authors = ["jeanloup.monnier <jean-loup.monnier@spikeelabs.fr>"]
 readme = "README.md"
